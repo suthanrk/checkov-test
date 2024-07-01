@@ -1,4 +1,4 @@
-            - name: Deploy Azure Resource Manager (ARM) Template
+  - name: Deploy Azure Resource Manager (ARM) Template
   uses: Azure/arm-deploy@v2
   with:
     # Provide the scope of the deployment. Valid values are: 'resourcegroup', 'tenant', 'managementgroup', 'subscription'
